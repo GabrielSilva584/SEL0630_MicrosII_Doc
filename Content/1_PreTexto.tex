@@ -1,0 +1,120 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONFIGURAÇÕES DE CAPA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+	
+	% CAPA PRINCIPAL
+	\begin{center}
+		\Huge{UNIVERSIDADE DE SÃO PAULO}\\
+		\vspace{0.02\textheight}
+		\huge{ESCOLA DE ENGENHARIA DE SÃO CARLOS}\\
+		\vspace{0.01\textheight}
+		\huge{DEPTO. DE ENGENHARIA ELÉTRICA E DE COMPUTAÇÃO}\\
+		\vspace{0.2\textheight}
+		\huge{\textbf{SEL0630 - Aplicação de Microprocessadores II}}\\
+		\vspace{0.05\textheight}
+		\huge{\textbf{Proposta de projeto - Monitoramento remoto inteligente}}
+		\vspace{0.05\textheight}
+	\end{center}
+		{
+			\begin{flushleft}
+			\Large{ \textbf{Autor}: \hspace{1cm} Gabriel Arantes de Lima e Silva, n$^o$. USP 9266372 }\\
+			\Large{ \textbf{Autor}: \hspace{1cm} Gabriel Martins da Silva, n$^o$. USP 9266747 }\\
+			\Large{ \textbf{Orientador}: \hspace{0.3cm} Prof. Dr. Maximiliam Luppe }\\
+			\end{flushleft}
+	
+			\begin{center}
+				\vspace{0.09\textheight}
+				\Large{São Carlos}\\
+				\Large{2018}
+			\end{center}
+		}
+	
+\end{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INSERÇÃO PÁGINA EM BRANCO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESUMO - PORTUGUES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\
+\vspace{0.11\textheight} 
+
+\begin{center}
+\textbf{\Huge{Resumo}}
+\end{center}
+
+\vspace{0.05\textheight}
+
+Como proposta de projeto para a disciplina SEL0630 - Aplicação de Microprocessadores II, tem-se o desenvolvimento de um sistema de monitoramento remoto, capaz de automaticamente identificar uma fonte de movimento na imagem e acompanhá-la. Imagens obtidas são enviadas para um servidor que pode ser acessado pelo usuário do sistema. Serão utilizados um {\itshape{BeagleBone black}}, uma {\itshape{webcam}} e um motor controlado por PWM para o projeto, e o {\itshape{software}} será desenvolvido em C/C++, com apoio da biblioteca OpenCV.
+			
+%%%Texto em \underline{\textbf{UM PARÁGRAFO}} apenas - deve conter \underline{tudo} resumidamente (introdução, método(s), resultados e conclusões), de tal forma que seja possível compreender a proposta e o que foi alcançado.%%%
+
+\vspace{0.05\textheight}
+	
+Palavras-Chave: Embarcados, Monitoramento, OpenCV, Remoto.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INSERÇÃO PÁGINA EM BRANCO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESUMO - INGLÊS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\
+\vspace{0.11\textheight} 
+
+\begin{center}
+\textbf{\Huge{Abstract}}
+\end{center}
+
+\vspace{0.05\textheight}	
+		
+As a project proposal for the course SEL0630 - Microprocessors Applications II, we have the development of an intelligent remote monitoring system, capable of automatically identifying, and tracking, a source of movement. Obtained footage is sent to a server, accessible by the system's user. For the project, a {\itshape{BeagleBone black}}, an {\itshape{webcam}} and a PWM controlled motor will be used, and the software will be made in C/C++, with support of OpenCV.
+
+\vspace{0.05\textheight}
+
+Keywords: Embedded, Monitoring, OpenCV, Remote.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INSERÇÃO PÁGINA EM BRANCO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+%\thispagestyle{empty}
+%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESUMO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONFIGURAÇÕES DOS ÍNDICES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\clearpage
+%\thispagestyle{empty}
+\listoffigures % Índice de Figuras
+(Se houver...)
+\listoftables % Índice de Tabelas
+(Se houver...)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INSERÇÃO PÁGINA EM BRANCO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LISTA DE ABREVIATURAS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\
+
+\vspace{0.11\textheight} 
+
+\textbf{\Huge{Siglas}}
+\vspace{0.05\textheight}
+			
+\begin{tabbing}
+\hspace*{0.5cm}\=\hspace{2.5cm}\= \kill
+
+\> PWM \> \textit{Pulse Width Modulation} - Modulação de Largura de Pulso \\
+% Exemplo de lista de lista de abreviaturas
+%\> MVC \> \textit{Model-View-Controller} - Modelo-Visão-Controlador \\
+%\> POO \> Programação Orientada a Objetos \\
+%\> UI \>  \textit{User Interface} - Interface do Usuário \\
+%\> UML \> \textit{Unified Modeling Language} - Linguagem de Modelagem Unificada \\
+
+
+\end{tabbing}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONFIGURAÇÕES DOS ÍNDICES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[RO, LE] {\thepage}
+
+\fancypagestyle{plain}{\pagestyle{fancy}}
+
+\tableofcontents % Índice Geral
